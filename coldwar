@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Special",
+    [2] = "Special"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DeployFunction"):InvokeServer(unpack(args))
